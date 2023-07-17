@@ -14,12 +14,15 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher_kode"
+
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kodetrainee"
         tools:targetApi="31">
         <activity
+
             android:name=".presentation.MainActivity"
+
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Kodetrainee">

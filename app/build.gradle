@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
+
 }
 
 android {
@@ -15,7 +16,9 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
+
         multiDexEnabled = true
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -30,7 +33,9 @@ android {
         }
     }
     compileOptions {
+
         coreLibraryDesugaringEnabled = true
+
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
@@ -41,7 +46,9 @@ android {
         compose true
     }
     composeOptions {
+
         kotlinCompilerExtensionVersion '1.4.0'
+
     }
     packagingOptions {
         resources {
@@ -85,4 +92,5 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:1.4.3"
     debugImplementation "androidx.compose.ui:ui-tooling:1.4.3"
     debugImplementation "androidx.compose.ui:ui-test-manifest:1.4.3"
+
 }
