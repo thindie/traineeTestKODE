@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">kodetrainee</string>
+    <string name="app_name">Кодер</string>
+    <string name="search_bar_hint_message">Введи имя, тег, почту...</string>
+    <string name="tab_tag_android">Android</string>
+    <string name="tab_tag_ios">iOS</string>
+    <string name="tab_tag_design">Дизайн</string>
+    <string name="tab_tag_management">Менеджмент</string>
+    <string name="tab_tag_qa">QA</string>
+    <string name="tab_tag_back_office">Бэк-офис</string>
+    <string name="tab_tag_frontend">Frontend</string>
+    <string name="tab_tag_hr">HR</string>
+    <string name="tab_tag_pr">PR</string>
+    <string name="tab_tag_backend">Backend</string>
+    <string name="tab_tag_support">Техподдержка</string>
+    <string name="tab_tag_analytics">Аналитика</string>
+    <string name="button_text_cancel">Отмена</string>
+    <string name="tab_tag_all">Все</string>
+    <string name="critical_message_mind_broke">Какой-то сверхразум все сломал</string>
+    <string name="critical_message_repair_soon">Постараемся быстро починить</string>
+    <string name="critical_attempt_retry">Попробовать снова</string>
+    <string name="message_bottom_sheet_alphabet">По алфавиту</string>
+    <string name="message_bottom_sheet_birhtday">По дню рождения</string>
+    <string name="bottom_sheet_tag_sort">Сортировка</string>
+    <string name="message_nothing_found">Мы никого не нашли</string>
+    <string name="message_correct_request">Попробуй скорректировать запрос</string>
 </resources>
